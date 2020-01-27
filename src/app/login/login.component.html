@@ -1,4 +1,7 @@
+<div *ngIf='invalidlogin'>invalid</div>
+<div>
 User name:<input type="text" name="username" [(ngModel)]="username" >
 <br/>
 password:<input type="password" name="password"[(ngModel)]="password">
 <button (click)=handleLogin()>Login</button>
+</div>
